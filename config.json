@@ -1,0 +1,18 @@
+{
+  "capitalInicial": 100000,
+  "benchmark": "SPY",
+  "watchlist": ["SPY", "AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "TSLA", "JPM", "KO", "XOM", "WMT"],
+  "aniosHistoria": 2,
+  "riesgo": {
+    "volatilidadMaxima": 0.65,
+    "volatilidadObjetivo": 0.25,
+    "pesoMaximo": 0.18,
+    "drawdownLimite": 0.12
+  },
+  "ejecucion": {
+    "comisionPct": 0.1,
+    "deslizamientoPct": 0.05,
+    "reservaEfectivo": 0.1,
+    "umbralRebalanceo": 0.02
+  }
+}

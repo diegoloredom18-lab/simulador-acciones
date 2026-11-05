@@ -1,0 +1,15 @@
+{
+  "name": "simulador-acciones",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simulador de inversiones con agentes autónomos que corre gratis en GitHub Actions + GitHub Pages",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "agentes": "node agents/run.js",
+    "agentes:reset": "node agents/run.js --reset",
+    "demo": "node agents/run.js --reset --demo",
+    "test": "node --test tests/*.test.js",
+    "servir": "npx --yes serve docs -l 8080"
+  }
+}
