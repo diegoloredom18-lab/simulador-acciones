@@ -17,7 +17,7 @@ Una cueva subterránea de alta tecnología donde cinco trajes blindados, cada un
 ## Cómo funciona sin tu computadora
 
 ```
-GitHub Actions (gratis, en la nube)          GitHub Pages (gratis)
+GitHub Actions (gratis, en la nube)          GitHub Pages (gratis, rama gh-pages)
   cada día hábil 22:30 UTC                      tu-usuario.github.io/simulador-acciones
   ├─ descarga precios (Yahoo Finance)           └─ la guarida: muestra lo que hicieron
   ├─ Vigía → Bastión → Oráculo → Martillo → Eco    los agentes + laboratorio de simulación
@@ -28,7 +28,7 @@ No hay servidor que mantener ni nada que pagar: GitHub corre a los agentes y pub
 
 ## Puesta en marcha (una sola vez, ~3 minutos)
 
-1. **Activa GitHub Pages**: en el repo ve a **Settings → Pages → Build and deployment → Source** y elige **GitHub Actions**.
+1. **Activa GitHub Pages**: en el repo ve a **Settings → Pages → Build and deployment**, deja **Source: Deploy from a branch**, elige la rama **gh-pages** y la carpeta **/ (root)**, y presiona **Save**.
 2. **Primera corrida**: ve a **Actions → Agentes de la guarida → Run workflow**. En ~1 minuto termina.
 3. Abre **https://TU-USUARIO.github.io/simulador-acciones/**. ¡Listo! Desde ahí los agentes despiertan solos cada día hábil.
 
