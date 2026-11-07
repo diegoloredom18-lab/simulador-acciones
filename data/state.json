@@ -1,0 +1,507 @@
+{
+ "generado": "2026-11-07T02:10:11.158Z",
+ "fechaMercado": "2026-11-06",
+ "fuentes": {
+  "yahoo": 12
+ },
+ "modoDemo": false,
+ "config": {
+  "capitalInicial": 100000,
+  "benchmark": "SPY",
+  "watchlist": [
+   "SPY",
+   "AAPL",
+   "MSFT",
+   "NVDA",
+   "AMZN",
+   "GOOGL",
+   "META",
+   "TSLA",
+   "JPM",
+   "KO",
+   "XOM",
+   "WMT"
+  ],
+  "aniosHistoria": 2,
+  "riesgo": {
+   "volatilidadMaxima": 0.65,
+   "volatilidadObjetivo": 0.25,
+   "pesoMaximo": 0.18,
+   "drawdownLimite": 0.12
+  },
+  "ejecucion": {
+   "comisionPct": 0.1,
+   "deslizamientoPct": 0.05,
+   "reservaEfectivo": 0.1,
+   "umbralRebalanceo": 0.02
+  }
+ },
+ "agentes": {
+  "vigia": {
+   "estado": "ok",
+   "resumen": "7 de 12 activos en tendencia alcista. Mejor puntaje: KO (59).",
+   "alertas": [],
+   "datos": {
+    "ranking": [
+     {
+      "ticker": "KO",
+      "precio": 95.67,
+      "cambio1d": -0.0006267627702915002,
+      "cambio20d": 0.08654173764906314,
+      "cambio60d": 0.10090286232442747,
+      "rsi": 64.39063492379833,
+      "tendencia": "alcista",
+      "puntaje": 59
+     },
+     {
+      "ticker": "WMT",
+      "precio": 125.52,
+      "cambio1d": -0.01722518008142815,
+      "cambio20d": 0.12725639874270311,
+      "cambio60d": 0.08728418032701679,
+      "rsi": 63.58726610729228,
+      "tendencia": "alcista",
+      "puntaje": 56
+     },
+     {
+      "ticker": "AAPL",
+      "precio": 342.37,
+      "cambio1d": -0.005229973559578105,
+      "cambio20d": 0.017021150190114076,
+      "cambio60d": 0.1215684989844723,
+      "rsi": 51.46432137925929,
+      "tendencia": "alcista",
+      "puntaje": 54
+     },
+     {
+      "ticker": "MSFT",
+      "precio": 530.61,
+      "cambio1d": -0.009926669527736687,
+      "cambio20d": -0.008335357990543413,
+      "cambio60d": 0.06989384336694449,
+      "rsi": 52.14773034451759,
+      "tendencia": "alcista",
+      "puntaje": 47
+     },
+     {
+      "ticker": "TSLA",
+      "precio": 358.22,
+      "cambio1d": 0.04227647007477686,
+      "cambio20d": -0.06396655343611168,
+      "cambio60d": 0.05371220143546318,
+      "rsi": 42.39070895250627,
+      "tendencia": "alcista",
+      "puntaje": 38
+     },
+     {
+      "ticker": "XOM",
+      "precio": 165.87,
+      "cambio1d": 0.0034482758620688614,
+      "cambio20d": -0.018172132117911688,
+      "cambio60d": 0.05254407651266346,
+      "rsi": 39.377781391166735,
+      "tendencia": "alcista",
+      "puntaje": 37
+     },
+     {
+      "ticker": "AMZN",
+      "precio": 259.3,
+      "cambio1d": -0.003497175358364246,
+      "cambio20d": -0.011926990054490716,
+      "cambio60d": -0.021989212838984584,
+      "rsi": 54.221343830512055,
+      "tendencia": "alcista",
+      "puntaje": 34
+     },
+     {
+      "ticker": "META",
+      "precio": 605.08,
+      "cambio1d": 0,
+      "cambio20d": -0.15805585317322268,
+      "cambio60d": 0.01779509800491441,
+      "rsi": 34.94997524152117,
+      "tendencia": "bajista",
+      "puntaje": -41
+     },
+     {
+      "ticker": "JPM",
+      "precio": 334.49,
+      "cambio1d": -0.008448449635382604,
+      "cambio20d": 0.004504639778972308,
+      "cambio60d": -0.07422322377011925,
+      "rsi": 46.738011376441506,
+      "tendencia": "bajista",
+      "puntaje": -48
+     },
+     {
+      "ticker": "SPY",
+      "precio": 735.29,
+      "cambio1d": 0.003124147339699901,
+      "cambio20d": -0.05558909282402369,
+      "cambio60d": -0.05240419138680019,
+      "rsi": 35.18288398821893,
+      "tendencia": "bajista",
+      "puntaje": -52
+     },
+     {
+      "ticker": "NVDA",
+      "precio": 186.64,
+      "cambio1d": 0.027753303964757725,
+      "cambio20d": -0.18597348220516408,
+      "cambio60d": -0.17066655054339475,
+      "rsi": 30.7664418291575,
+      "tendencia": "bajista",
+      "puntaje": -72
+     },
+     {
+      "ticker": "GOOGL",
+      "precio": 284.78,
+      "cambio1d": 0.00782107088509032,
+      "cambio20d": -0.19018370016493213,
+      "cambio60d": -0.17726337077028642,
+      "rsi": 29.921594889955998,
+      "tendencia": "bajista",
+      "puntaje": -74
+     }
+    ]
+   }
+  },
+  "bastion": {
+   "estado": "ok",
+   "resumen": "12 activos aprobados. Caída actual del portafolio: 4.1%.",
+   "alertas": [],
+   "datos": {
+    "activos": [
+     {
+      "ticker": "SPY",
+      "volatilidad": 0.13550041989076786,
+      "maxDrawdown": 0.0888497447978184,
+      "var95": 0.014521926652096173,
+      "beta": 1,
+      "aprobado": true,
+      "pesoMax": 0.18
+     },
+     {
+      "ticker": "AAPL",
+      "volatilidad": 0.2484304040953096,
+      "maxDrawdown": 0.1379852571588339,
+      "var95": 0.02070597851073619,
+      "beta": 0.5924271758347845,
+      "aprobado": true,
+      "pesoMax": 0.18
+     },
+     {
+      "ticker": "MSFT",
+      "volatilidad": 0.33804864199103224,
+      "maxDrawdown": 0.30534778471574586,
+      "var95": 0.028722061511619934,
+      "beta": 1.029558509046499,
+      "aprobado": true,
+      "pesoMax": 0.13311693765417865
+     },
+     {
+      "ticker": "NVDA",
+      "volatilidad": 0.38348092550049917,
+      "maxDrawdown": 0.240929610433038,
+      "var95": 0.04126538743517805,
+      "beta": 1.8849546391069136,
+      "aprobado": true,
+      "pesoMax": 0.11734612338610678
+     },
+     {
+      "ticker": "AMZN",
+      "volatilidad": 0.33896417104945115,
+      "maxDrawdown": 0.20196708149337617,
+      "var95": 0.03057646085346144,
+      "beta": 1.3557854652637953,
+      "aprobado": true,
+      "pesoMax": 0.13275739397670733
+     },
+     {
+      "ticker": "GOOGL",
+      "volatilidad": 0.33821020134819585,
+      "maxDrawdown": 0.3062041991320029,
+      "var95": 0.03033923768821356,
+      "beta": 1.3244099597028327,
+      "aprobado": true,
+      "pesoMax": 0.1330533491320428
+     },
+     {
+      "ticker": "META",
+      "volatilidad": 0.4131805829191944,
+      "maxDrawdown": 0.28733177605755034,
+      "var95": 0.03834330938149655,
+      "beta": 1.3530095036177874,
+      "aprobado": true,
+      "pesoMax": 0.1089112166938412
+     },
+     {
+      "ticker": "TSLA",
+      "volatilidad": 0.4578573074358969,
+      "maxDrawdown": 0.39103453907079283,
+      "var95": 0.04142404853100723,
+      "beta": 2.1124692411365067,
+      "aprobado": true,
+      "pesoMax": 0.09828389602867765
+     },
+     {
+      "ticker": "JPM",
+      "volatilidad": 0.22914488620830983,
+      "maxDrawdown": 0.15471751209410486,
+      "var95": 0.02471053528644951,
+      "beta": 0.8025345883238642,
+      "aprobado": true,
+      "pesoMax": 0.18
+     },
+     {
+      "ticker": "KO",
+      "volatilidad": 0.1897206455940913,
+      "maxDrawdown": 0.0786765992550559,
+      "var95": 0.015666698609889118,
+      "beta": -0.23616316249259348,
+      "aprobado": true,
+      "pesoMax": 0.18
+     },
+     {
+      "ticker": "XOM",
+      "volatilidad": 0.272010637436852,
+      "maxDrawdown": 0.20112245543182983,
+      "var95": 0.029767732213688225,
+      "beta": -0.6066977757945007,
+      "aprobado": true,
+      "pesoMax": 0.16543470661307086
+     },
+     {
+      "ticker": "WMT",
+      "volatilidad": 0.2691727195306809,
+      "maxDrawdown": 0.23341512330117764,
+      "var95": 0.02478427207666034,
+      "beta": -0.0558872128759441,
+      "aprobado": true,
+      "pesoMax": 0.16717890311640887
+     }
+    ],
+    "drawdownPortafolio": 0.04052227507570928,
+    "defensivo": false,
+    "multiplicador": 1
+   }
+  },
+  "oraculo": {
+   "estado": "ok",
+   "resumen": "Señal de compra en AAPL, TSLA, KO, XOM, WMT.",
+   "alertas": [],
+   "datos": {
+    "senales": [
+     {
+      "ticker": "SPY",
+      "estrategia": "rsiReversion",
+      "nombre": "Reversión RSI",
+      "sharpe": 2.5750471946222833,
+      "rendimiento": 0.12032655011751503,
+      "posicion": 0,
+      "senal": "FUERA",
+      "motivo": "Reversión RSI (Sharpe 2.58)"
+     },
+     {
+      "ticker": "AAPL",
+      "estrategia": "buyhold",
+      "nombre": "Comprar y mantener",
+      "sharpe": 1.116314784949454,
+      "rendimiento": 0.2780567339555273,
+      "posicion": 1,
+      "senal": "COMPRAR",
+      "motivo": "Comprar y mantener (Sharpe 1.12)"
+     },
+     {
+      "ticker": "MSFT",
+      "estrategia": "rsiReversion",
+      "nombre": "Reversión RSI",
+      "sharpe": 0.740243405178249,
+      "rendimiento": 0.16336301163137001,
+      "posicion": 0,
+      "senal": "FUERA",
+      "motivo": "Reversión RSI (Sharpe 0.74)"
+     },
+     {
+      "ticker": "NVDA",
+      "estrategia": "buyhold",
+      "nombre": "Comprar y mantener",
+      "sharpe": 0.17226868979418106,
+      "rendimiento": -0.007138687202890681,
+      "posicion": 1,
+      "senal": "FUERA",
+      "motivo": "Comprar y mantener (Sharpe 0.17) · descartada por Vigía (puntaje muy negativo)"
+     },
+     {
+      "ticker": "AMZN",
+      "estrategia": "rsiReversion",
+      "nombre": "Reversión RSI",
+      "sharpe": 1.1112839412437119,
+      "rendimiento": 0.14589597665257537,
+      "posicion": 0,
+      "senal": "FUERA",
+      "motivo": "Reversión RSI (Sharpe 1.11)"
+     },
+     {
+      "ticker": "GOOGL",
+      "estrategia": "rsiReversion",
+      "nombre": "Reversión RSI",
+      "sharpe": 0.584420530200418,
+      "rendimiento": 0.08316601628678977,
+      "posicion": 1,
+      "senal": "FUERA",
+      "motivo": "Reversión RSI (Sharpe 0.58) · descartada por Vigía (puntaje muy negativo)"
+     },
+     {
+      "ticker": "META",
+      "estrategia": "rsiReversion",
+      "nombre": "Reversión RSI",
+      "sharpe": 0.8293967065760341,
+      "rendimiento": 0.2231706137674907,
+      "posicion": 0,
+      "senal": "FUERA",
+      "motivo": "Reversión RSI (Sharpe 0.83)"
+     },
+     {
+      "ticker": "TSLA",
+      "estrategia": "rsiReversion",
+      "nombre": "Reversión RSI",
+      "sharpe": 0.6751925977705946,
+      "rendimiento": 0.14264861583244737,
+      "posicion": 1,
+      "senal": "COMPRAR",
+      "motivo": "Reversión RSI (Sharpe 0.68)"
+     },
+     {
+      "ticker": "JPM",
+      "estrategia": "momentum",
+      "nombre": "Momentum",
+      "sharpe": 0.5761636795848812,
+      "rendimiento": 0.07645246783790927,
+      "posicion": 0,
+      "senal": "FUERA",
+      "motivo": "Momentum (Sharpe 0.58)"
+     },
+     {
+      "ticker": "KO",
+      "estrategia": "buyhold",
+      "nombre": "Comprar y mantener",
+      "sharpe": 1.8470912754777433,
+      "rendimiento": 0.3900226014732153,
+      "posicion": 1,
+      "senal": "COMPRAR",
+      "motivo": "Comprar y mantener (Sharpe 1.85)"
+     },
+     {
+      "ticker": "XOM",
+      "estrategia": "buyhold",
+      "nombre": "Comprar y mantener",
+      "sharpe": 1.5221266800216455,
+      "rendimiento": 0.4538619779422166,
+      "posicion": 1,
+      "senal": "COMPRAR",
+      "motivo": "Comprar y mantener (Sharpe 1.52)"
+     },
+     {
+      "ticker": "WMT",
+      "estrategia": "buyhold",
+      "nombre": "Comprar y mantener",
+      "sharpe": 0.913678989530097,
+      "rendimiento": 0.23196452123779365,
+      "posicion": 1,
+      "senal": "COMPRAR",
+      "motivo": "Comprar y mantener (Sharpe 0.91)"
+     }
+    ]
+   }
+  },
+  "martillo": {
+   "estado": "ok",
+   "resumen": "1 órdenes ejecutadas (0 compras, 1 ventas).",
+   "alertas": [],
+   "datos": {
+    "ordenes": [
+     {
+      "fecha": "2026-11-06",
+      "ticker": "MSFT",
+      "lado": "VENTA",
+      "acciones": 23.2157,
+      "precio": 530.34,
+      "monto": 12300.04,
+      "ganancia": 121.92,
+      "motivo": "Salida por señal/riesgo"
+     }
+    ],
+    "posiciones": [
+     {
+      "ticker": "KO",
+      "acciones": 175.98668744474259,
+      "costoPromedio": 94.98602701653813,
+      "precio": 95.67,
+      "valor": 16836.646387838522,
+      "peso": 0.1754011649916835,
+      "ganancia": 120.37013966115235
+     },
+     {
+      "ticker": "AAPL",
+      "acciones": 48.949426320996864,
+      "costoPromedio": 333.9806725835004,
+      "precio": 342.37,
+      "valor": 16758.815089519696,
+      "peso": 0.1745903324729345,
+      "ganancia": 410.65276425666667
+     },
+     {
+      "ticker": "XOM",
+      "acciones": 93.6525777688695,
+      "costoPromedio": 164.16582186564975,
+      "precio": 165.87,
+      "valor": 15534.153074522384,
+      "peso": 0.16183202305647312,
+      "ganancia": 159.60067525924447
+     },
+     {
+      "ticker": "WMT",
+      "acciones": 122.79531103106586,
+      "costoPromedio": 122.0876437360856,
+      "precio": 125.52,
+      "valor": 15413.267440619387,
+      "peso": 0.16057265818481675,
+      "ganancia": 421.4772549967959
+     },
+     {
+      "ticker": "TSLA",
+      "acciones": 23.81204559888704,
+      "costoPromedio": 372.9009096592596,
+      "precio": 358.22,
+      "valor": 8529.950974433315,
+      "peso": 0.08886350070987184,
+      "ganancia": -349.5824902394297
+     }
+    ],
+    "efectivo": 22916.531691145312,
+    "valor": 95989.36465807862
+   }
+  },
+  "eco": {
+   "estado": "ok",
+   "resumen": "Desde el 2026-05-15: -4.0% vs -0.0% del SPY. El mercado nos va ganando.",
+   "alertas": [],
+   "datos": {
+    "lineas": [
+     "Valor del portafolio: $95,989 (-0.1% hoy).",
+     "Desde el 2026-05-15: -4.0% vs -0.0% del SPY. El mercado nos va ganando.",
+     "Vigía: 7 de 12 activos en tendencia alcista. Mejor puntaje: KO (59).",
+     "Bastión: 12 activos aprobados. Caída actual del portafolio: 4.1%.",
+     "Oráculo: Señal de compra en AAPL, TSLA, KO, XOM, WMT.",
+     "Martillo: 1 órdenes ejecutadas (0 compras, 1 ventas)."
+    ],
+    "rendimiento": -0.040106399999999987,
+    "rendimientoBenchmark": -0.00020990000000009612,
+    "sharpe": -0.6606692770192674,
+    "maxDrawdown": 0.10314670164022413,
+    "totalAlertas": 0
+   }
+  }
+ }
+}

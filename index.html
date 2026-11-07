@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La Guarida · Simulador</title>
+  <meta name="description" content="Simulador de inversiones con agentes autónomos en una guarida subterránea.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M2 4h28l-6 6-3 14-5 6-5-6-3-14z' fill='%2307090c' stroke='%235cc8ff' stroke-width='2'/%3E%3C/svg%3E">
+</head>
+<body>
+  <div class="cueva" aria-hidden="true">
+    <div class="estalactitas"></div>
+    <div class="gotas"><i></i><i></i><i></i><i></i></div>
+  </div>
+
+  <header class="barra">
+    <div class="marca">
+      <svg viewBox="0 0 32 32" class="logo" aria-hidden="true"><path d="M2 4h28l-6 6-3 14-5 6-5-6-3-14z"/></svg>
+      <div>
+        <h1>LA GUARIDA</h1>
+        <p>Centro de mando · Simulador de inversiones</p>
+      </div>
+    </div>
+    <div class="estado-sistema">
+      <span id="badge-datos" class="badge">CARGANDO…</span>
+      <span class="reloj" id="reloj">--:--:--</span>
+      <a id="btn-despertar" class="btn fantasma" target="_blank" rel="noopener" title="Abre GitHub Actions para despertar a los agentes ahora">⚡ Despertar agentes</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- MURO DE MONITORES -->
+    <section class="muro" aria-label="Muro de monitores">
+      <div class="monitor principal">
+        <div class="monitor-cab">
+          <span>PORTAFOLIO SIMULADO · VALOR TOTAL</span>
+          <span id="fecha-mercado" class="tenue"></span>
+        </div>
+        <div class="valor-grande" id="valor-total">—</div>
+        <div class="sub" id="valor-sub"></div>
+        <div id="chart-portafolio" class="chart-box"></div>
+        <div class="leyenda"><span><i style="background:var(--azul)"></i>Agentes</span><span><i style="background:var(--tenue)"></i>Mercado (SPY)</span></div>
+      </div>
+      <div class="monitores-laterales" id="kpis"></div>
+    </section>
+
+    <!-- VITRINAS -->
+    <section class="seccion">
+      <div class="seccion-cab">
+        <h2>Vitrinas de trajes</h2>
+        <p>Cada traje es un agente con una sola misión. Toca uno para abrir su expediente.</p>
+      </div>
+      <div class="vitrinas" id="vitrinas"></div>
+    </section>
+
+    <!-- LABORATORIO -->
+    <section class="seccion" id="laboratorio">
+      <div class="seccion-cab">
+        <h2>Laboratorio de simulación</h2>
+        <p>Prueba cualquier estrategia sobre datos históricos y proyecta mil futuros posibles. Todo corre en tu navegador.</p>
+      </div>
+      <div class="lab">
+        <form class="consola" id="form-lab">
+          <label>Activo <select id="lab-ticker"></select></label>
+          <label>Estrategia <select id="lab-estrategia"></select></label>
+          <p class="desc" id="lab-desc"></p>
+          <div id="lab-params" class="params"></div>
+          <div class="fila2">
+            <label>Capital ($) <input type="number" id="lab-capital" value="10000" min="100" step="100"></label>
+            <label>Comisión (%) <input type="number" id="lab-comision" value="0.1" min="0" max="5" step="0.05"></label>
+          </div>
+          <label>Periodo
+            <select id="lab-periodo">
+              <option value="126">Últimos 6 meses</option>
+              <option value="252" selected>Último año</option>
+              <option value="9999">Todo el historial</option>
+            </select>
+          </label>
+          <button class="btn" type="submit">▶ Lanzar simulación</button>
+          <hr>
+          <h3>Proyección Monte Carlo</h3>
+          <div class="fila2">
+            <label>Horizonte
+              <select id="mc-dias"><option value="63">3 meses</option><option value="126">6 meses</option><option value="252" selected>1 año</option></select>
+            </label>
+            <label>Escenarios
+              <select id="mc-caminos"><option>200</option><option selected>500</option><option>1000</option></select>
+            </label>
+          </div>
+          <button class="btn secundario" type="button" id="btn-mc">◎ Proyectar futuros</button>
+        </form>
+        <div class="resultados">
+          <div class="monitor">
+            <div class="monitor-cab"><span id="lab-titulo">RESULTADO DEL BACKTEST</span></div>
+            <div id="lab-metricas" class="metricas"></div>
+            <div id="chart-lab" class="chart-box"></div>
+            <div class="leyenda"><span><i style="background:var(--violeta)"></i>Estrategia</span><span><i style="background:var(--tenue)"></i>Comprar y mantener</span></div>
+          </div>
+          <div class="monitor">
+            <div class="monitor-cab"><span>PROYECCIÓN · ESCENARIOS FUTUROS</span></div>
+            <div id="mc-metricas" class="metricas"></div>
+            <div id="chart-mc" class="chart-box"><p class="vacio">Presiona “Proyectar futuros” para ver el abanico de resultados posibles.</p></div>
+          </div>
+          <details class="monitor">
+            <summary>Operaciones de la simulación</summary>
+            <div id="lab-trades" class="tabla-scroll"></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- POSICIONES Y BITÁCORA -->
+    <section class="seccion dos-col">
+      <div>
+        <div class="seccion-cab"><h2>Arsenal actual</h2><p>Posiciones que mantiene el agente Martillo.</p></div>
+        <div class="monitor"><div id="tabla-posiciones" class="tabla-scroll"></div></div>
+        <div class="seccion-cab"><h2>Últimas órdenes</h2></div>
+        <div class="monitor"><div id="tabla-ordenes" class="tabla-scroll alta"></div></div>
+      </div>
+      <div>
+        <div class="seccion-cab"><h2>Bitácora de Eco</h2><p>Reporte de cada día de mercado.</p></div>
+        <div class="monitor bitacora" id="bitacora"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Todo es dinero simulado. Esto es un laboratorio educativo, no una recomendación de inversión.</p>
+    <p class="tenue" id="pie-generado"></p>
+  </footer>
+
+  <!-- EXPEDIENTE DE AGENTE -->
+  <dialog id="expediente">
+    <div class="exp-cab">
+      <div class="exp-traje" id="exp-traje"></div>
+      <div>
+        <p class="tenue" id="exp-modelo"></p>
+        <h2 id="exp-nombre"></h2>
+        <p id="exp-rol" class="rol"></p>
+        <p id="exp-tarea"></p>
+      </div>
+      <button class="cerrar" id="exp-cerrar" aria-label="Cerrar">✕</button>
+    </div>
+    <div id="exp-cuerpo"></div>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
