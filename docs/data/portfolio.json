@@ -1,7 +1,7 @@
 {
  "capitalInicial": 100000,
  "inicio": "2026-05-15",
- "efectivo": 10616.496492661163,
+ "efectivo": 22916.531691145312,
  "posiciones": {
   "AAPL": {
    "acciones": 48.949426320996864,
@@ -22,10 +22,6 @@
   "WMT": {
    "acciones": 122.79531103106586,
    "costoPromedio": 122.0876437360856
-  },
-  "MSFT": {
-   "acciones": 23.215745650157167,
-   "costoPromedio": 525.0931108301309
   }
  },
  "operaciones": [
@@ -2245,6 +2241,16 @@
    "precio": 344.34,
    "monto": 4133.97,
    "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 23.2157,
+   "precio": 530.34,
+   "monto": 12300.04,
+   "ganancia": 121.92,
+   "motivo": "Salida por señal/riesgo"
   }
  ],
  "historial": [
@@ -2852,6 +2858,11 @@
    "fecha": "2026-11-05",
    "valor": 96100.79,
    "benchmark": 99667.63
+  },
+  {
+   "fecha": "2026-11-06",
+   "valor": 95989.36,
+   "benchmark": 99979.01
   }
  ],
  "benchmarkAcciones": 135.97220945594256
