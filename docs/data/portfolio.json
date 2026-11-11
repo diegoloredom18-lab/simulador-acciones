@@ -1,7 +1,7 @@
 {
  "capitalInicial": 100000,
  "inicio": "2026-05-15",
- "efectivo": 10395.975297666057,
+ "efectivo": 10150.083799753122,
  "posiciones": {
   "AAPL": {
    "acciones": 48.949426320996864,
@@ -23,9 +23,9 @@
    "acciones": 122.79531103106586,
    "costoPromedio": 122.0876437360856
   },
-  "MSFT": {
-   "acciones": 22.9315041755217,
-   "costoPromedio": 545.4525899999999
+  "AMZN": {
+   "acciones": 45.90785368642859,
+   "costoPromedio": 271.005435
   }
  },
  "operaciones": [
@@ -2264,6 +2264,25 @@
    "precio": 545.45,
    "monto": 12520.56,
    "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-10",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 22.9315,
+   "precio": 532.89,
+   "monto": 12207.83,
+   "ganancia": -288,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-10",
+   "ticker": "AMZN",
+   "lado": "COMPRA",
+   "acciones": 45.9079,
+   "precio": 271.01,
+   "monto": 12453.72,
+   "motivo": "Entrada/aumento por señal"
   }
  ],
  "historial": [
@@ -2881,6 +2900,11 @@
    "fecha": "2026-11-09",
    "valor": 96823.84,
    "benchmark": 102344.92
+  },
+  {
+   "fecha": "2026-11-10",
+   "valor": 96562.71,
+   "benchmark": 101968.28
   }
  ],
  "benchmarkAcciones": 135.97220945594256
