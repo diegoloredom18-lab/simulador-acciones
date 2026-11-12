@@ -1,7 +1,7 @@
 {
  "capitalInicial": 100000,
  "inicio": "2026-05-15",
- "efectivo": 10150.083799753122,
+ "efectivo": 27295.356947606226,
  "posiciones": {
   "AAPL": {
    "acciones": 48.949426320996864,
@@ -14,10 +14,6 @@
   "TSLA": {
    "acciones": 23.81204559888704,
    "costoPromedio": 372.9009096592596
-  },
-  "KO": {
-   "acciones": 175.98668744474259,
-   "costoPromedio": 94.98602701653813
   },
   "WMT": {
    "acciones": 122.79531103106586,
@@ -2283,6 +2279,16 @@
    "precio": 271.01,
    "monto": 12453.72,
    "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-11",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 175.9867,
+   "precio": 97.52,
+   "monto": 17145.27,
+   "ganancia": 446.16,
+   "motivo": "Salida por señal/riesgo"
   }
  ],
  "historial": [
@@ -2905,6 +2911,11 @@
    "fecha": "2026-11-10",
    "valor": 96562.71,
    "benchmark": 101968.28
+  },
+  {
+   "fecha": "2026-11-11",
+   "valor": 97273.74,
+   "benchmark": 103313.04
   }
  ],
  "benchmarkAcciones": 135.97220945594256

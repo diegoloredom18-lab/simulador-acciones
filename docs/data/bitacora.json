@@ -1,5 +1,28 @@
 [
  {
+  "fecha": "2026-11-11",
+  "lineas": [
+   "Valor del portafolio: $97,274 (+0.7% hoy).",
+   "Desde el 2026-05-15: -2.7% vs +3.3% del SPY. El mercado nos va ganando.",
+   "Vigía: 7 de 12 activos en tendencia alcista. Mejor puntaje: AAPL (63).",
+   "Bastión: 12 activos aprobados. Caída actual del portafolio: 3.6%.",
+   "Oráculo: Señal de compra en AAPL, AMZN, TSLA, XOM, WMT.",
+   "Martillo: 1 órdenes ejecutadas (0 compras, 1 ventas)."
+  ],
+  "ordenes": [
+   {
+    "fecha": "2026-11-11",
+    "ticker": "KO",
+    "lado": "VENTA",
+    "acciones": 175.9867,
+    "precio": 97.52,
+    "monto": 17145.27,
+    "ganancia": 446.16,
+    "motivo": "Salida por señal/riesgo"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-10",
   "lineas": [
    "Valor del portafolio: $96,563 (-0.3% hoy).",
@@ -1622,28 +1645,6 @@
     "acciones": 54.039,
     "precio": 217.43,
     "monto": 11761.21,
-    "motivo": "Entrada/aumento por señal"
-   }
-  ]
- },
- {
-  "fecha": "2026-08-18",
-  "lineas": [
-   "Valor del portafolio: $95,816 (+1.2% hoy).",
-   "Desde el 2026-05-15: -4.2% vs +4.1% del SPY. El mercado nos va ganando.",
-   "Vigía: 8 de 12 activos en tendencia alcista. Mejor puntaje: JPM (74).",
-   "Bastión: 12 activos aprobados. Caída actual del portafolio: 5.4%.",
-   "Oráculo: Señal de compra en AAPL, JPM, KO, XOM, WMT.",
-   "Martillo: 1 órdenes ejecutadas (1 compras, 0 ventas)."
-  ],
-  "ordenes": [
-   {
-    "fecha": "2026-08-18",
-    "ticker": "WMT",
-    "lado": "COMPRA",
-    "acciones": 149.887,
-    "precio": 114.98,
-    "monto": 17251.6,
     "motivo": "Entrada/aumento por señal"
    }
   ]
