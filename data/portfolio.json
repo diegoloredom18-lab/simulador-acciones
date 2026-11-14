@@ -1,0 +1,2964 @@
+{
+ "capitalInicial": 100000,
+ "inicio": "2026-05-15",
+ "efectivo": 5595.995994167333,
+ "posiciones": {
+  "AAPL": {
+   "acciones": 48.949426320996864,
+   "costoPromedio": 333.9806725835004
+  },
+  "XOM": {
+   "acciones": 93.6525777688695,
+   "costoPromedio": 164.16582186564975
+  },
+  "TSLA": {
+   "acciones": 23.81204559888704,
+   "costoPromedio": 372.9009096592596
+  },
+  "WMT": {
+   "acciones": 122.79531103106586,
+   "costoPromedio": 122.0876437360856
+  },
+  "JPM": {
+   "acciones": 51.27577547841038,
+   "costoPromedio": 342.99141
+  },
+  "KO": {
+   "acciones": 164.5270255038951,
+   "costoPromedio": 99.29962499999999
+  }
+ },
+ "operaciones": [
+  {
+   "fecha": "2026-05-15",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 12.6731,
+   "precio": 613.48,
+   "monto": 7782.5,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 35.5107,
+   "precio": 224.92,
+   "monto": 7995,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 23.4908,
+   "precio": 396.49,
+   "monto": 9323.1,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 36.0046,
+   "precio": 300.12,
+   "monto": 10816.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 25.7019,
+   "precio": 420.43,
+   "monto": 10816.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 36.6111,
+   "precio": 295.15,
+   "monto": 10816.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 135.3001,
+   "precio": 79.87,
+   "monto": 10816.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 68.8342,
+   "precio": 156.98,
+   "monto": 10816.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-15",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 82.3599,
+   "precio": 131.2,
+   "monto": 10816.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-18",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 13.2456,
+   "precio": 410.19,
+   "monto": 5438.73,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 135.3001,
+   "precio": 79.43,
+   "monto": 10736.14,
+   "ganancia": -58.88,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 68.8342,
+   "precio": 148.77,
+   "monto": 10230.35,
+   "ganancia": -565.18,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 12.6731,
+   "precio": 610.98,
+   "monto": 7735.31,
+   "ganancia": -31.67,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 14.1357,
+   "precio": 214.48,
+   "monto": 3034.82,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 10.8886,
+   "precio": 304,
+   "monto": 3313.44,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 8.593,
+   "precio": 388.59,
+   "monto": 3342.53,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 10.8448,
+   "precio": 308.22,
+   "monto": 3345.91,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 9.0533,
+   "precio": 415.46,
+   "monto": 3765,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-26",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 39.637,
+   "precio": 118.35,
+   "monto": 4695.56,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 10.7449,
+   "precio": 310.43,
+   "monto": 3332.18,
+   "ganancia": 90.59,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 27.1743,
+   "precio": 118.2,
+   "monto": 3208.73,
+   "ganancia": -239.87,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 7.5311,
+   "precio": 411.69,
+   "monto": 3097.38,
+   "ganancia": -56.06,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 9.6751,
+   "precio": 296.31,
+   "monto": 2863.96,
+   "ganancia": -8.4,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "GOOGL",
+   "lado": "VENTA",
+   "acciones": 7.0752,
+   "precio": 388.15,
+   "monto": 2743.53,
+   "ganancia": -43.99,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 10.5337,
+   "precio": 212.01,
+   "monto": 2231.01,
+   "ganancia": -104.67,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 12.6611,
+   "precio": 634.49,
+   "monto": 8041.33,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-27",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 138.8894,
+   "precio": 80.66,
+   "monto": 11213.43,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-28",
+   "ticker": "AMZN",
+   "lado": "COMPRA",
+   "acciones": 31.2127,
+   "precio": 274.14,
+   "monto": 8565.12,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-05-29",
+   "ticker": "AMZN",
+   "lado": "VENTA",
+   "acciones": 31.2127,
+   "precio": 270.5,
+   "monto": 8434.75,
+   "ganancia": -113.37,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 94.8226,
+   "precio": 114.27,
+   "monto": 10824.46,
+   "ganancia": -1209.53,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 12.6611,
+   "precio": 599.14,
+   "monto": 7578.18,
+   "ganancia": -447.53,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 5.2533,
+   "precio": 416.09,
+   "monto": 2188,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 7.7382,
+   "precio": 376.09,
+   "monto": 2913.19,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 10.8174,
+   "precio": 293.93,
+   "monto": 3182.75,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 10.5883,
+   "precio": 306.2,
+   "monto": 3245.36,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-01",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 45.086,
+   "precio": 77.71,
+   "monto": 3507.18,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-02",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 5.1319,
+   "precio": 440.7,
+   "monto": 2263.9,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 11.5996,
+   "precio": 297.86,
+   "monto": 3451.66,
+   "ganancia": 16.34,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 11.0818,
+   "precio": 309.84,
+   "monto": 3430.12,
+   "ganancia": 76.34,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 42.0669,
+   "precio": 77.75,
+   "monto": 3267.5,
+   "ganancia": -91.8,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 6.6457,
+   "precio": 426.32,
+   "monto": 2830.39,
+   "ganancia": 25.06,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "GOOGL",
+   "lado": "VENTA",
+   "acciones": 6.399,
+   "precio": 358.37,
+   "monto": 2290.88,
+   "ganancia": -202.76,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 12.5522,
+   "precio": 622.22,
+   "monto": 7818.07,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-03",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 72.7331,
+   "precio": 151.62,
+   "monto": 11039.15,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 72.7331,
+   "precio": 148.88,
+   "monto": 10817.75,
+   "ganancia": -199.54,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 12.5522,
+   "precio": 591.69,
+   "monto": 7419.54,
+   "ganancia": -383.29,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 9.7895,
+   "precio": 204.97,
+   "monto": 2008.6,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 5.8374,
+   "precio": 368.26,
+   "monto": 2151.8,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 8.0187,
+   "precio": 309.58,
+   "monto": 2484.91,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 35.6998,
+   "precio": 78.54,
+   "monto": 2806.7,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 9.7924,
+   "precio": 307.23,
+   "monto": 3011.5,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-05",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 7.4288,
+   "precio": 416.1,
+   "monto": 3094.16,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-10",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 33.139,
+   "precio": 396.41,
+   "monto": 13123.65,
+   "ganancia": -818.22,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-10",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 91.3149,
+   "precio": 149.73,
+   "monto": 13685.87,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-12",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 32.2149,
+   "precio": 81.56,
+   "monto": 2624.89,
+   "ganancia": 61.47,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-12",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 7.7155,
+   "precio": 317.54,
+   "monto": 2447.52,
+   "ganancia": 144.63,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-12",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 98.1092,
+   "precio": 120.81,
+   "monto": 11864.56,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 12.8937,
+   "precio": 296.02,
+   "monto": 3812.94,
+   "ganancia": -101.28,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "GOOGL",
+   "lado": "VENTA",
+   "acciones": 10.0227,
+   "precio": 368.93,
+   "monto": 3693.98,
+   "ganancia": -172.1,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 16.6153,
+   "precio": 212.11,
+   "monto": 3520.69,
+   "ganancia": -107.03,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 22.5486,
+   "precio": 139.94,
+   "monto": 3152.37,
+   "ganancia": -220.58,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 18.228,
+   "precio": 120.47,
+   "monto": 2193.75,
+   "ganancia": -6.2,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 5.3406,
+   "precio": 410.94,
+   "monto": 2192.5,
+   "ganancia": -4.93,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 6.914,
+   "precio": 316.23,
+   "monto": 2184.24,
+   "ganancia": 120.57,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 25.6845,
+   "precio": 80.39,
+   "monto": 2062.71,
+   "ganancia": 18.9,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 11.2935,
+   "precio": 593.31,
+   "monto": 6707.2,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-15",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 23.5873,
+   "precio": 399.21,
+   "monto": 9425.65,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 68.7663,
+   "precio": 140.88,
+   "monto": 9677.89,
+   "ganancia": -608.51,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 23.5873,
+   "precio": 392.89,
+   "monto": 9258.01,
+   "ganancia": -148.95,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 3.1956,
+   "precio": 600.04,
+   "monto": 1919.39,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 10.376,
+   "precio": 207.28,
+   "monto": 2152.9,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 6.174,
+   "precio": 373.2,
+   "monto": 2306.42,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 7.4903,
+   "precio": 328.18,
+   "monto": 2460.65,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 9.0938,
+   "precio": 299.13,
+   "monto": 2722.95,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 23.1373,
+   "precio": 120.8,
+   "monto": 2797.81,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-16",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 36.1535,
+   "precio": 79.84,
+   "monto": 2889.52,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 103.0186,
+   "precio": 117.79,
+   "monto": 12122.32,
+   "ganancia": -311.12,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 14.4891,
+   "precio": 566.85,
+   "monto": 8204.89,
+   "ganancia": -404.88,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 14.0296,
+   "precio": 204.52,
+   "monto": 2872.26,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 9.6461,
+   "precio": 363.74,
+   "monto": 3512.14,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 11.4905,
+   "precio": 330.48,
+   "monto": 3801.2,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 49.5533,
+   "precio": 79.5,
+   "monto": 3943.21,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 10.0282,
+   "precio": 396.58,
+   "monto": 3980.95,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-17",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 13.5933,
+   "precio": 295.84,
+   "monto": 4025.49,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-23",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 27.5806,
+   "precio": 79.79,
+   "monto": 2198.55,
+   "ganancia": 3.98,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-23",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 6.5191,
+   "precio": 330.82,
+   "monto": 2154.53,
+   "ganancia": 131.74,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-23",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 6.9144,
+   "precio": 293.9,
+   "monto": 2030.1,
+   "ganancia": -49.88,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-23",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 17.4417,
+   "precio": 562.04,
+   "monto": 9812.7,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-25",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 17.4417,
+   "precio": 542.17,
+   "monto": 9446.93,
+   "ganancia": -346.51,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-25",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 9.1191,
+   "precio": 275.05,
+   "monto": 2510.72,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-26",
+   "ticker": "GOOGL",
+   "lado": "VENTA",
+   "acciones": 37.9826,
+   "precio": 337,
+   "monto": 12787.5,
+   "ganancia": -1569.39,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-26",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 38.8252,
+   "precio": 372.46,
+   "monto": 14475.13,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-29",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 38.8252,
+   "precio": 367.69,
+   "monto": 14261.51,
+   "ganancia": -184.88,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-06-29",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 6.117,
+   "precio": 326.45,
+   "monto": 1998.88,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-29",
+   "ticker": "GOOGL",
+   "lado": "COMPRA",
+   "acciones": 37.7701,
+   "precio": 353.6,
+   "monto": 13368.83,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-06-30",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 10.226,
+   "precio": 288.97,
+   "monto": 2952.03,
+   "ganancia": -81.88,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-30",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 6.9466,
+   "precio": 324.08,
+   "monto": 2249,
+   "ganancia": 79.81,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-30",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 5.0113,
+   "precio": 420.39,
+   "monto": 2104.58,
+   "ganancia": 75.84,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-30",
+   "ticker": "GOOGL",
+   "lado": "VENTA",
+   "acciones": 5.8147,
+   "precio": 356.96,
+   "monto": 2073.55,
+   "ganancia": 19.55,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-06-30",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 33.9223,
+   "precio": 372.51,
+   "monto": 12648.89,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-01",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 12.193,
+   "precio": 197.26,
+   "monto": 2402.79,
+   "ganancia": -192.1,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-01",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 24.4394,
+   "precio": 80.77,
+   "monto": 1971.93,
+   "ganancia": 27.33,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-01",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 13.5831,
+   "precio": 612.73,
+   "monto": 8331.16,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-02",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 6.8414,
+   "precio": 308.21,
+   "monto": 2106.47,
+   "ganancia": 76.87,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-13",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 33.9223,
+   "precio": 390.06,
+   "monto": 13218.53,
+   "ganancia": 595.5,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-13",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 22.675,
+   "precio": 83.79,
+   "monto": 1901.89,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-13",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 6.1777,
+   "precio": 317.2,
+   "monto": 1961.49,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-16",
+   "ticker": "GOOGL",
+   "lado": "VENTA",
+   "acciones": 31.9554,
+   "precio": 354.06,
+   "monto": 11302.65,
+   "ganancia": 14.56,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-16",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 33.652,
+   "precio": 400.55,
+   "monto": 13492.66,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-17",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 33.652,
+   "precio": 392.88,
+   "monto": 13208.08,
+   "ganancia": -257.88,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-17",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 18.1752,
+   "precio": 380.65,
+   "monto": 6911.47,
+   "ganancia": -447.22,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-17",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 9.9684,
+   "precio": 202.68,
+   "monto": 2022.47,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-17",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 107.9129,
+   "precio": 146.49,
+   "monto": 15823.46,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-21",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 24.9355,
+   "precio": 150.66,
+   "monto": 3752.99,
+   "ganancia": 104.07,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-21",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 8.3158,
+   "precio": 327.29,
+   "monto": 2718.99,
+   "ganancia": 229.81,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-21",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 12.4343,
+   "precio": 206.95,
+   "monto": 2570.76,
+   "ganancia": -51.85,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-21",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 5.6534,
+   "precio": 343.34,
+   "monto": 1939.11,
+   "ganancia": 173.85,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-21",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 18.3956,
+   "precio": 379.12,
+   "monto": 6981.1,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-21",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 28.5576,
+   "precio": 397.2,
+   "monto": 11354.46,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-22",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 28.5576,
+   "precio": 389.41,
+   "monto": 11109.56,
+   "ganancia": -222.44,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-22",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 18.3956,
+   "precio": 373.82,
+   "monto": 6869.81,
+   "ganancia": -97.43,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-22",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 10.33,
+   "precio": 211.93,
+   "monto": 2191.42,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-22",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 20.8041,
+   "precio": 153.53,
+   "monto": 3197.3,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-22",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 9.5539,
+   "precio": 346.65,
+   "monto": 3315.23,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-22",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 10.7139,
+   "precio": 325.77,
+   "monto": 3493.79,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-23",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 3.2031,
+   "precio": 605.92,
+   "monto": 1942.8,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-27",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 52.3637,
+   "precio": 196.19,
+   "monto": 10263.07,
+   "ganancia": -790.23,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-27",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 27.302,
+   "precio": 83.61,
+   "monto": 2285.08,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-28",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 103.7815,
+   "precio": 151.98,
+   "monto": 15756.87,
+   "ganancia": 423.57,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-28",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 39.3159,
+   "precio": 392.81,
+   "monto": 15459.02,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-29",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 39.3159,
+   "precio": 389.61,
+   "monto": 15302.61,
+   "ganancia": -125.65,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-07-29",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 108.7816,
+   "precio": 155.82,
+   "monto": 16967.24,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-07-31",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 23.17,
+   "precio": 87.03,
+   "monto": 2014.39,
+   "ganancia": 147.91,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-07-31",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 53.5517,
+   "precio": 200.63,
+   "monto": 10754.59,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-08-07",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 53.5517,
+   "precio": 223.6,
+   "monto": 11962.06,
+   "ganancia": 1230.19,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-08-10",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 6.5133,
+   "precio": 308.41,
+   "monto": 2010.82,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-08-17",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 16.7863,
+   "precio": 568.24,
+   "monto": 9529.05,
+   "ganancia": -725.11,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-08-18",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 149.887,
+   "precio": 114.98,
+   "monto": 17251.6,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-08-19",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 149.887,
+   "precio": 113.97,
+   "monto": 17065.54,
+   "ganancia": -151.74,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-08-19",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 54.039,
+   "precio": 217.43,
+   "monto": 11761.21,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-08-28",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 6.0159,
+   "precio": 319.54,
+   "monto": 1920.39,
+   "ganancia": 83.05,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-08-28",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 23.8305,
+   "precio": 513.79,
+   "monto": 12256.03,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-08-31",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 23.8305,
+   "precio": 507.04,
+   "monto": 12070.84,
+   "ganancia": -160.87,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-01",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 12.6343,
+   "precio": 164.47,
+   "monto": 2075.86,
+   "ganancia": 109.27,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-01",
+   "ticker": "META",
+   "lado": "COMPRA",
+   "acciones": 18.2125,
+   "precio": 578.37,
+   "monto": 10544.16,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-03",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 10.7646,
+   "precio": 228.08,
+   "monto": 2452.75,
+   "ganancia": 114.7,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-03",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 21.22,
+   "precio": 376.56,
+   "monto": 7998.56,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-04",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 21.22,
+   "precio": 353.9,
+   "monto": 7502.32,
+   "ganancia": -480.74,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-09",
+   "ticker": "META",
+   "lado": "VENTA",
+   "acciones": 18.2125,
+   "precio": 652.85,
+   "monto": 11878.12,
+   "ganancia": 1356.38,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-10",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 9.0921,
+   "precio": 218.47,
+   "monto": 1988.34,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-11",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 24.5615,
+   "precio": 365.62,
+   "monto": 8989.23,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-22",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 11.137,
+   "precio": 228.76,
+   "monto": 2545.1,
+   "ganancia": 124.16,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-22",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 7.3285,
+   "precio": 339.58,
+   "monto": 2486.13,
+   "ganancia": 248.03,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-22",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 124.649,
+   "precio": 110.18,
+   "monto": 13746.95,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-23",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 45.9642,
+   "precio": 335.69,
+   "monto": 15414.13,
+   "ganancia": 736.07,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-23",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 8.7813,
+   "precio": 225.62,
+   "monto": 1983.25,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-23",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 23.6829,
+   "precio": 110.59,
+   "monto": 2621.59,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-23",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 8.5115,
+   "precio": 337.19,
+   "monto": 2872.87,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-24",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 148.3319,
+   "precio": 107.54,
+   "monto": 15935.1,
+   "ganancia": -401.14,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-24",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 49.8737,
+   "precio": 337.05,
+   "monto": 16826.64,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 13.5551,
+   "precio": 340.9,
+   "monto": 4616.31,
+   "ganancia": 404.92,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 12.8697,
+   "precio": 341.19,
+   "monto": 4386.58,
+   "ganancia": 53.26,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 20.9451,
+   "precio": 160.51,
+   "monto": 3358.52,
+   "ganancia": 98.24,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 36.3515,
+   "precio": 87.77,
+   "monto": 3187.24,
+   "ganancia": 258.93,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 12.8783,
+   "precio": 224.96,
+   "monto": 2894.17,
+   "ganancia": 76.54,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 6.1276,
+   "precio": 371.92,
+   "monto": 2276.73,
+   "ganancia": 38.61,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 18.6558,
+   "precio": 516.43,
+   "monto": 9644,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-25",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 111.7117,
+   "precio": 108.03,
+   "monto": 12080.73,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 37.004,
+   "precio": 334.75,
+   "monto": 12374.77,
+   "ganancia": -84.96,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 18.6558,
+   "precio": 508.97,
+   "monto": 9485.65,
+   "ganancia": -139.22,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 7.2273,
+   "precio": 357.63,
+   "monto": 2587.27,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "NVDA",
+   "lado": "COMPRA",
+   "acciones": 11.6496,
+   "precio": 228.97,
+   "monto": 2670.12,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 24.1824,
+   "precio": 162.6,
+   "monto": 3936.01,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 36.7885,
+   "precio": 108.78,
+   "monto": 4006.01,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 49.8599,
+   "precio": 87.22,
+   "monto": 4353.31,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-28",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 12.8695,
+   "precio": 338.57,
+   "monto": 4361.57,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-09-29",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 148.5002,
+   "precio": 106.75,
+   "monto": 15836.04,
+   "ganancia": -218.78,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-02",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 25.4078,
+   "precio": 517.79,
+   "monto": 13169.04,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 4.0894,
+   "precio": 529.5,
+   "monto": 2163.15,
+   "ganancia": 47.87,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 12.4338,
+   "precio": 163.97,
+   "monto": 2036.71,
+   "ganancia": 80.8,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 6.0028,
+   "precio": 336.5,
+   "monto": 2017.94,
+   "ganancia": 110.28,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-07",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 129.1234,
+   "precio": 108.21,
+   "monto": 13986.94,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-08",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 23.9218,
+   "precio": 87.73,
+   "monto": 2096.46,
+   "ganancia": 128.92,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-15",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 129.1234,
+   "precio": 117.81,
+   "monto": 15196.95,
+   "ganancia": 1239.2,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-15",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 3.8284,
+   "precio": 539.71,
+   "monto": 2068.28,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-15",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 23.8847,
+   "precio": 92.05,
+   "monto": 2200.69,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-15",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 8.195,
+   "precio": 342.17,
+   "monto": 2806.9,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-16",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 25.1468,
+   "precio": 528.79,
+   "monto": 13283.97,
+   "ganancia": 192.61,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-16",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 50.604,
+   "precio": 339.89,
+   "monto": 17216.99,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-19",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 50.604,
+   "precio": 333.36,
+   "monto": 16852.65,
+   "ganancia": -330.27,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-20",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 25.4267,
+   "precio": 532.14,
+   "monto": 13543.97,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-21",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 193.6741,
+   "precio": 92.63,
+   "monto": 17922.8,
+   "ganancia": 1762.3,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-22",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 9.0577,
+   "precio": 348.05,
+   "monto": 3149.33,
+   "ganancia": 236.71,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-22",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 44.4662,
+   "precio": 336.71,
+   "monto": 14987.09,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-22",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 156.9608,
+   "precio": 95.39,
+   "monto": 14987.09,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-23",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 44.4662,
+   "precio": 331.41,
+   "monto": 14721.98,
+   "ganancia": -235.41,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-23",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 7.9535,
+   "precio": 347.9,
+   "monto": 2769.83,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-23",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 34.2922,
+   "precio": 92.76,
+   "monto": 3184,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 13.5585,
+   "precio": 346.93,
+   "monto": 4699.1,
+   "ganancia": 284.19,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 48.7503,
+   "precio": 91.13,
+   "monto": 4438.38,
+   "ganancia": -184.35,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 6.8869,
+   "precio": 531.06,
+   "monto": 3653.72,
+   "ganancia": -7.38,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 18.2775,
+   "precio": 179.82,
+   "monto": 3283.37,
+   "ganancia": 408.51,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "TSLA",
+   "lado": "VENTA",
+   "acciones": 8.0426,
+   "precio": 407.26,
+   "monto": 3272.12,
+   "ganancia": 352.95,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 9.1324,
+   "precio": 217.83,
+   "monto": 1987.33,
+   "ganancia": -32.53,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 103.5242,
+   "precio": 119.38,
+   "monto": 12371.04,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-27",
+   "ticker": "SPY",
+   "lado": "COMPRA",
+   "acciones": 16.8567,
+   "precio": 770.04,
+   "monto": 12993.4,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-28",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 29.1303,
+   "precio": 339.47,
+   "monto": 9898.75,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "SPY",
+   "lado": "VENTA",
+   "acciones": 16.8567,
+   "precio": 755.34,
+   "monto": 12719.85,
+   "ganancia": -247.84,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 29.1303,
+   "precio": 336.87,
+   "monto": 9803.37,
+   "ganancia": -75.69,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "NVDA",
+   "lado": "VENTA",
+   "acciones": 39.6497,
+   "precio": 204.54,
+   "monto": 8101.76,
+   "ganancia": -668.3,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "TSLA",
+   "lado": "COMPRA",
+   "acciones": 6.1935,
+   "precio": 400.01,
+   "monto": 2479.93,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 6.4622,
+   "precio": 522.17,
+   "monto": 3377.74,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 18.3325,
+   "precio": 187.34,
+   "monto": 3437.9,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 28.0643,
+   "precio": 123.57,
+   "monto": 3471.43,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 39.6081,
+   "precio": 94.13,
+   "monto": 3731.92,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-10-30",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 12.2778,
+   "precio": 344.8,
+   "monto": 4237.64,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-02",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 25.002,
+   "precio": 506.87,
+   "monto": 12659.99,
+   "ganancia": -567.39,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-02",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 47.9788,
+   "precio": 340.75,
+   "monto": 16365.13,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-03",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 47.9788,
+   "precio": 337.81,
+   "monto": 16191.55,
+   "ganancia": -141.02,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-03",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 24.5291,
+   "precio": 521.25,
+   "monto": 12798.59,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "WMT",
+   "lado": "VENTA",
+   "acciones": 38.4519,
+   "precio": 129.11,
+   "monto": 4959.39,
+   "ganancia": 339.6,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 47.2831,
+   "precio": 95.75,
+   "monto": 4522.93,
+   "ganancia": 47.65,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "AAPL",
+   "lado": "VENTA",
+   "acciones": 12.7559,
+   "precio": 349.34,
+   "monto": 4451.64,
+   "ganancia": 238.76,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 7.2815,
+   "precio": 555.52,
+   "monto": 4041.01,
+   "ganancia": 249.55,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 16.5964,
+   "precio": 169.19,
+   "monto": 2805.06,
+   "ganancia": 89.97,
+   "motivo": "Reducir peso"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "AMZN",
+   "lado": "COMPRA",
+   "acciones": 35.7028,
+   "precio": 266.16,
+   "monto": 9512.26,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-04",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 36.6282,
+   "precio": 352.29,
+   "monto": 12916.49,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "JPM",
+   "lado": "VENTA",
+   "acciones": 36.6282,
+   "precio": 337.17,
+   "monto": 12337.61,
+   "ganancia": -553.62,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "AMZN",
+   "lado": "VENTA",
+   "acciones": 35.7028,
+   "precio": 260.08,
+   "monto": 9276.28,
+   "ganancia": -217.18,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 5.9682,
+   "precio": 536.2,
+   "monto": 3203.33,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "WMT",
+   "lado": "COMPRA",
+   "acciones": 29.6587,
+   "precio": 127.78,
+   "monto": 3793.7,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "XOM",
+   "lado": "COMPRA",
+   "acciones": 23.2432,
+   "precio": 165.38,
+   "monto": 3847.87,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 41.159,
+   "precio": 95.78,
+   "monto": 3946.06,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-05",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 11.9934,
+   "precio": 344.34,
+   "monto": 4133.97,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-06",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 23.2157,
+   "precio": 530.34,
+   "monto": 12300.04,
+   "ganancia": 121.92,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-09",
+   "ticker": "MSFT",
+   "lado": "COMPRA",
+   "acciones": 22.9315,
+   "precio": 545.45,
+   "monto": 12520.56,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-10",
+   "ticker": "MSFT",
+   "lado": "VENTA",
+   "acciones": 22.9315,
+   "precio": 532.89,
+   "monto": 12207.83,
+   "ganancia": -288,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-10",
+   "ticker": "AMZN",
+   "lado": "COMPRA",
+   "acciones": 45.9079,
+   "precio": 271.01,
+   "monto": 12453.72,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-11",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 175.9867,
+   "precio": 97.52,
+   "monto": 17145.27,
+   "ganancia": 446.16,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ticker": "AMZN",
+   "lado": "VENTA",
+   "acciones": 45.9079,
+   "precio": 267.31,
+   "monto": 12259.19,
+   "ganancia": -169.82,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-12",
+   "ticker": "JPM",
+   "lado": "COMPRA",
+   "acciones": 51.2758,
+   "precio": 342.99,
+   "monto": 17604.74,
+   "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-13",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 164.527,
+   "precio": 99.3,
+   "monto": 16353.81,
+   "motivo": "Entrada/aumento por señal"
+  }
+ ],
+ "historial": [
+  {
+   "fecha": "2026-05-15",
+   "valor": 99865.16,
+   "benchmark": 100000
+  },
+  {
+   "fecha": "2026-05-18",
+   "valor": 100159.48,
+   "benchmark": 99929.65
+  },
+  {
+   "fecha": "2026-05-19",
+   "valor": 99703.83,
+   "benchmark": 99264.04
+  },
+  {
+   "fecha": "2026-05-20",
+   "valor": 99725.08,
+   "benchmark": 100281.39
+  },
+  {
+   "fecha": "2026-05-21",
+   "valor": 98801.11,
+   "benchmark": 100480.25
+  },
+  {
+   "fecha": "2026-05-22",
+   "valor": 98862.73,
+   "benchmark": 100875.31
+  },
+  {
+   "fecha": "2026-05-26",
+   "valor": 98340.95,
+   "benchmark": 101544.97
+  },
+  {
+   "fecha": "2026-05-27",
+   "valor": 97908.74,
+   "benchmark": 101527.39
+  },
+  {
+   "fecha": "2026-05-28",
+   "valor": 98237.71,
+   "benchmark": 102087.47
+  },
+  {
+   "fecha": "2026-05-29",
+   "valor": 97857.73,
+   "benchmark": 102341.81
+  },
+  {
+   "fecha": "2026-06-01",
+   "valor": 97365.69,
+   "benchmark": 102620.5
+  },
+  {
+   "fecha": "2026-06-02",
+   "valor": 97034.7,
+   "benchmark": 102759.86
+  },
+  {
+   "fecha": "2026-06-03",
+   "valor": 95950.99,
+   "benchmark": 102038.77
+  },
+  {
+   "fecha": "2026-06-04",
+   "valor": 96535.08,
+   "benchmark": 102424.33
+  },
+  {
+   "fecha": "2026-06-05",
+   "valor": 94760.81,
+   "benchmark": 99780.83
+  },
+  {
+   "fecha": "2026-06-08",
+   "valor": 94633.07,
+   "benchmark": 100006.76
+  },
+  {
+   "fecha": "2026-06-09",
+   "valor": 94027.3,
+   "benchmark": 99713.18
+  },
+  {
+   "fecha": "2026-06-10",
+   "valor": 93157.35,
+   "benchmark": 98141.15
+  },
+  {
+   "fecha": "2026-06-11",
+   "valor": 93571.5,
+   "benchmark": 99809.24
+  },
+  {
+   "fecha": "2026-06-12",
+   "valor": 93929.41,
+   "benchmark": 100349.04
+  },
+  {
+   "fecha": "2026-06-15",
+   "valor": 94070.49,
+   "benchmark": 102118.6
+  },
+  {
+   "fecha": "2026-06-16",
+   "valor": 94242.46,
+   "benchmark": 101509.81
+  },
+  {
+   "fecha": "2026-06-17",
+   "valor": 92810.04,
+   "benchmark": 100242.15
+  },
+  {
+   "fecha": "2026-06-18",
+   "valor": 93008.34,
+   "benchmark": 101284.38
+  },
+  {
+   "fecha": "2026-06-22",
+   "valor": 92581.87,
+   "benchmark": 100965.63
+  },
+  {
+   "fecha": "2026-06-23",
+   "valor": 91531.76,
+   "benchmark": 99499.42
+  },
+  {
+   "fecha": "2026-06-24",
+   "valor": 91184.15,
+   "benchmark": 99453.3
+  },
+  {
+   "fecha": "2026-06-25",
+   "valor": 89828.36,
+   "benchmark": 99597.07
+  },
+  {
+   "fecha": "2026-06-26",
+   "valor": 90099.96,
+   "benchmark": 98876.86
+  },
+  {
+   "fecha": "2026-06-29",
+   "valor": 90669.13,
+   "benchmark": 100505.83
+  },
+  {
+   "fecha": "2026-06-30",
+   "valor": 91362.62,
+   "benchmark": 101288.45
+  },
+  {
+   "fecha": "2026-07-01",
+   "valor": 92311.73,
+   "benchmark": 101151.45
+  },
+  {
+   "fecha": "2026-07-02",
+   "valor": 92491.8,
+   "benchmark": 101018.54
+  },
+  {
+   "fecha": "2026-07-06",
+   "valor": 93501.69,
+   "benchmark": 101900.17
+  },
+  {
+   "fecha": "2026-07-07",
+   "valor": 93701.63,
+   "benchmark": 101415.95
+  },
+  {
+   "fecha": "2026-07-08",
+   "valor": 92992.99,
+   "benchmark": 101102.63
+  },
+  {
+   "fecha": "2026-07-09",
+   "valor": 93682.76,
+   "benchmark": 101958.49
+  },
+  {
+   "fecha": "2026-07-10",
+   "valor": 94687.61,
+   "benchmark": 102397.95
+  },
+  {
+   "fecha": "2026-07-13",
+   "valor": 94091.22,
+   "benchmark": 101613.98
+  },
+  {
+   "fecha": "2026-07-14",
+   "valor": 94797.94,
+   "benchmark": 101974.77
+  },
+  {
+   "fecha": "2026-07-15",
+   "valor": 96082.67,
+   "benchmark": 102378.96
+  },
+  {
+   "fecha": "2026-07-16",
+   "valor": 95546.35,
+   "benchmark": 101824.2
+  },
+  {
+   "fecha": "2026-07-17",
+   "valor": 93952.01,
+   "benchmark": 100816.43
+  },
+  {
+   "fecha": "2026-07-20",
+   "valor": 93755.04,
+   "benchmark": 100653.67
+  },
+  {
+   "fecha": "2026-07-21",
+   "valor": 94554.13,
+   "benchmark": 101493.26
+  },
+  {
+   "fecha": "2026-07-22",
+   "valor": 94485.07,
+   "benchmark": 101375.25
+  },
+  {
+   "fecha": "2026-07-23",
+   "valor": 93965.48,
+   "benchmark": 100123.34
+  },
+  {
+   "fecha": "2026-07-24",
+   "valor": 94582.77,
+   "benchmark": 100225.06
+  },
+  {
+   "fecha": "2026-07-27",
+   "valor": 94423.13,
+   "benchmark": 100246.78
+  },
+  {
+   "fecha": "2026-07-28",
+   "valor": 95244.98,
+   "benchmark": 100486.83
+  },
+  {
+   "fecha": "2026-07-29",
+   "valor": 94450.6,
+   "benchmark": 98940.6
+  },
+  {
+   "fecha": "2026-07-30",
+   "valor": 93622.02,
+   "benchmark": 100599.42
+  },
+  {
+   "fecha": "2026-07-31",
+   "valor": 92396.87,
+   "benchmark": 101323.72
+  },
+  {
+   "fecha": "2026-08-03",
+   "valor": 92873.1,
+   "benchmark": 102766.87
+  },
+  {
+   "fecha": "2026-08-04",
+   "valor": 93459.83,
+   "benchmark": 104619.66
+  },
+  {
+   "fecha": "2026-08-05",
+   "valor": 93817.54,
+   "benchmark": 104410.78
+  },
+  {
+   "fecha": "2026-08-06",
+   "valor": 94109.15,
+   "benchmark": 104243.95
+  },
+  {
+   "fecha": "2026-08-07",
+   "valor": 94335.98,
+   "benchmark": 104881.43
+  },
+  {
+   "fecha": "2026-08-10",
+   "valor": 94946.64,
+   "benchmark": 104850.24
+  },
+  {
+   "fecha": "2026-08-11",
+   "valor": 94865.54,
+   "benchmark": 104515.22
+  },
+  {
+   "fecha": "2026-08-12",
+   "valor": 94557.54,
+   "benchmark": 104776.99
+  },
+  {
+   "fecha": "2026-08-13",
+   "valor": 94904.03,
+   "benchmark": 105508.07
+  },
+  {
+   "fecha": "2026-08-14",
+   "valor": 95055.93,
+   "benchmark": 105299.19
+  },
+  {
+   "fecha": "2026-08-17",
+   "valor": 94715.8,
+   "benchmark": 104801.4
+  },
+  {
+   "fecha": "2026-08-18",
+   "valor": 95816.37,
+   "benchmark": 104093.39
+  },
+  {
+   "fecha": "2026-08-19",
+   "valor": 95929.6,
+   "benchmark": 104311.76
+  },
+  {
+   "fecha": "2026-08-20",
+   "valor": 95500.62,
+   "benchmark": 103435.56
+  },
+  {
+   "fecha": "2026-08-21",
+   "valor": 95273.29,
+   "benchmark": 103858.73
+  },
+  {
+   "fecha": "2026-08-24",
+   "valor": 95255.44,
+   "benchmark": 103553.55
+  },
+  {
+   "fecha": "2026-08-25",
+   "valor": 95057.82,
+   "benchmark": 103884.51
+  },
+  {
+   "fecha": "2026-08-26",
+   "valor": 94516.94,
+   "benchmark": 103907.57
+  },
+  {
+   "fecha": "2026-08-27",
+   "valor": 95091.08,
+   "benchmark": 104588.45
+  },
+  {
+   "fecha": "2026-08-28",
+   "valor": 95082.96,
+   "benchmark": 104351.1
+  },
+  {
+   "fecha": "2026-08-31",
+   "valor": 95160.38,
+   "benchmark": 104039.14
+  },
+  {
+   "fecha": "2026-09-01",
+   "valor": 95592.93,
+   "benchmark": 103324.34
+  },
+  {
+   "fecha": "2026-09-02",
+   "valor": 96283.8,
+   "benchmark": 103782.77
+  },
+  {
+   "fecha": "2026-09-03",
+   "valor": 97153.93,
+   "benchmark": 104869.22
+  },
+  {
+   "fecha": "2026-09-04",
+   "valor": 95903.52,
+   "benchmark": 104465.03
+  },
+  {
+   "fecha": "2026-09-08",
+   "valor": 95389.98,
+   "benchmark": 103891.29
+  },
+  {
+   "fecha": "2026-09-09",
+   "valor": 96224.4,
+   "benchmark": 103408.43
+  },
+  {
+   "fecha": "2026-09-10",
+   "valor": 96650.99,
+   "benchmark": 102788.57
+  },
+  {
+   "fecha": "2026-09-11",
+   "valor": 97193.07,
+   "benchmark": 103664.78
+  },
+  {
+   "fecha": "2026-09-14",
+   "valor": 96513.73,
+   "benchmark": 103202.25
+  },
+  {
+   "fecha": "2026-09-15",
+   "valor": 96928.2,
+   "benchmark": 102728.89
+  },
+  {
+   "fecha": "2026-09-16",
+   "valor": 96216.97,
+   "benchmark": 102275.88
+  },
+  {
+   "fecha": "2026-09-17",
+   "valor": 96975.33,
+   "benchmark": 103435.56
+  },
+  {
+   "fecha": "2026-09-18",
+   "valor": 97115.04,
+   "benchmark": 103568.67
+  },
+  {
+   "fecha": "2026-09-21",
+   "valor": 97195.31,
+   "benchmark": 105174.5
+  },
+  {
+   "fecha": "2026-09-22",
+   "valor": 97128.91,
+   "benchmark": 105158.19
+  },
+  {
+   "fecha": "2026-09-23",
+   "valor": 96957.84,
+   "benchmark": 104400.82
+  },
+  {
+   "fecha": "2026-09-24",
+   "valor": 96406.2,
+   "benchmark": 104315.16
+  },
+  {
+   "fecha": "2026-09-25",
+   "valor": 96506.42,
+   "benchmark": 104882.16
+  },
+  {
+   "fecha": "2026-09-28",
+   "valor": 95982.77,
+   "benchmark": 104101.68
+  },
+  {
+   "fecha": "2026-09-29",
+   "valor": 94842.31,
+   "benchmark": 103909.96
+  },
+  {
+   "fecha": "2026-09-30",
+   "valor": 95122.51,
+   "benchmark": 103696.49
+  },
+  {
+   "fecha": "2026-10-01",
+   "valor": 95201,
+   "benchmark": 103881.41
+  },
+  {
+   "fecha": "2026-10-02",
+   "valor": 95854.8,
+   "benchmark": 104649.65
+  },
+  {
+   "fecha": "2026-10-05",
+   "valor": 96625.2,
+   "benchmark": 105355.35
+  },
+  {
+   "fecha": "2026-10-06",
+   "valor": 96815.27,
+   "benchmark": 105934.59
+  },
+  {
+   "fecha": "2026-10-07",
+   "valor": 96677.85,
+   "benchmark": 105680.32
+  },
+  {
+   "fecha": "2026-10-08",
+   "valor": 97348.38,
+   "benchmark": 105232.97
+  },
+  {
+   "fecha": "2026-10-09",
+   "valor": 97774.92,
+   "benchmark": 105863.88
+  },
+  {
+   "fecha": "2026-10-12",
+   "valor": 98628.32,
+   "benchmark": 105799.98
+  },
+  {
+   "fecha": "2026-10-13",
+   "valor": 98844.84,
+   "benchmark": 105787.74
+  },
+  {
+   "fecha": "2026-10-14",
+   "valor": 99190.99,
+   "benchmark": 104644.21
+  },
+  {
+   "fecha": "2026-10-15",
+   "valor": 98973.9,
+   "benchmark": 104941.99
+  },
+  {
+   "fecha": "2026-10-16",
+   "valor": 99135.48,
+   "benchmark": 103780.79
+  },
+  {
+   "fecha": "2026-10-19",
+   "valor": 99102.73,
+   "benchmark": 104219.98
+  },
+  {
+   "fecha": "2026-10-20",
+   "valor": 98995,
+   "benchmark": 104569.43
+  },
+  {
+   "fecha": "2026-10-21",
+   "valor": 99688.32,
+   "benchmark": 105118.76
+  },
+  {
+   "fecha": "2026-10-22",
+   "valor": 98788.19,
+   "benchmark": 103877.33
+  },
+  {
+   "fecha": "2026-10-23",
+   "valor": 98501.4,
+   "benchmark": 103334.8
+  },
+  {
+   "fecha": "2026-10-26",
+   "valor": 99369.73,
+   "benchmark": 104069.05
+  },
+  {
+   "fecha": "2026-10-27",
+   "valor": 99237.89,
+   "benchmark": 104652.37
+  },
+  {
+   "fecha": "2026-10-28",
+   "valor": 99147.14,
+   "benchmark": 105012.7
+  },
+  {
+   "fecha": "2026-10-29",
+   "valor": 99811,
+   "benchmark": 104611.58
+  },
+  {
+   "fecha": "2026-10-30",
+   "valor": 99267.04,
+   "benchmark": 102756.92
+  },
+  {
+   "fecha": "2026-11-02",
+   "valor": 98844.76,
+   "benchmark": 102264.7
+  },
+  {
+   "fecha": "2026-11-03",
+   "valor": 97478.44,
+   "benchmark": 102570.64
+  },
+  {
+   "fecha": "2026-11-04",
+   "valor": 98862.66,
+   "benchmark": 104264.85
+  },
+  {
+   "fecha": "2026-11-05",
+   "valor": 96100.79,
+   "benchmark": 99667.63
+  },
+  {
+   "fecha": "2026-11-06",
+   "valor": 95989.36,
+   "benchmark": 99979.01
+  },
+  {
+   "fecha": "2026-11-09",
+   "valor": 96823.84,
+   "benchmark": 102344.92
+  },
+  {
+   "fecha": "2026-11-10",
+   "valor": 96562.71,
+   "benchmark": 101968.28
+  },
+  {
+   "fecha": "2026-11-11",
+   "valor": 97273.74,
+   "benchmark": 103313.04
+  },
+  {
+   "fecha": "2026-11-12",
+   "valor": 97759.31,
+   "benchmark": 102947.28
+  },
+  {
+   "fecha": "2026-11-13",
+   "valor": 98112.66,
+   "benchmark": 102573.36
+  }
+ ],
+ "benchmarkAcciones": 135.97220945594256
+}
