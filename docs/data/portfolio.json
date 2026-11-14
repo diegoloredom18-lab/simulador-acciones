@@ -1,7 +1,7 @@
 {
  "capitalInicial": 100000,
  "inicio": "2026-05-15",
- "efectivo": 21949.80540100445,
+ "efectivo": 5595.995994167333,
  "posiciones": {
   "AAPL": {
    "acciones": 48.949426320996864,
@@ -22,6 +22,10 @@
   "JPM": {
    "acciones": 51.27577547841038,
    "costoPromedio": 342.99141
+  },
+  "KO": {
+   "acciones": 164.5270255038951,
+   "costoPromedio": 99.29962499999999
   }
  },
  "operaciones": [
@@ -2308,6 +2312,15 @@
    "precio": 342.99,
    "monto": 17604.74,
    "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-13",
+   "ticker": "KO",
+   "lado": "COMPRA",
+   "acciones": 164.527,
+   "precio": 99.3,
+   "monto": 16353.81,
+   "motivo": "Entrada/aumento por señal"
   }
  ],
  "historial": [
@@ -2940,6 +2953,11 @@
    "fecha": "2026-11-12",
    "valor": 97759.31,
    "benchmark": 102947.28
+  },
+  {
+   "fecha": "2026-11-13",
+   "valor": 98112.66,
+   "benchmark": 102573.36
   }
  ],
  "benchmarkAcciones": 135.97220945594256
