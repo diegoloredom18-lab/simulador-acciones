@@ -64,6 +64,10 @@ async function main() {
 
   const portFile = path.join(DATA, 'portfolio.json');
   let portafolio = args.has('--reset') ? null : await readJson(portFile, null);
+  // Si cambió el capital inicial en config.json, el portafolio se reconstruye desde cero
+  const reiniciar = args.has('--reset') || (portafolio && portafolio.capitalInicial !== config.capitalInicial);
+  if (reiniciar && portafolio) console.log(`[orquestador] Capital inicial cambió a ${config.capitalInicial}: reiniciando portafolio…`);
+  if (reiniciar) portafolio = null;
   let informes;
   const dias = [];
   const registrar = (i) => {
@@ -99,7 +103,7 @@ async function main() {
 
   // Bitácora: últimos 60 reportes del cronista
   const bitacoraFile = path.join(DATA, 'bitacora.json');
-  const bitacora = args.has('--reset') ? [] : await readJson(bitacoraFile, []);
+  const bitacora = reiniciar ? [] : await readJson(bitacoraFile, []);
   for (const d of dias) {
     if (bitacora[0]?.fecha === d.fecha) bitacora.shift();
     bitacora.unshift(d);

@@ -1,6 +1,6 @@
 # La Guarida · Simulador de inversiones con agentes
 
-Una cueva subterránea de alta tecnología donde cinco trajes blindados, cada uno un agente con una misión, administran un portafolio de **dinero simulado** ($100,000 de inicio). Los agentes despiertan solos cada día hábil en la nube, analizan el mercado, operan y escriben su bitácora. Tú solo abres la página para ver qué hicieron, o usas el laboratorio para probar tus propias estrategias.
+Una cueva subterránea de alta tecnología donde cinco trajes blindados, cada uno un agente con una misión, administran un portafolio de **dinero simulado** ($10,000 pesos de inicio). Los agentes despiertan solos cada día hábil en la nube, analizan el mercado, operan y escriben su bitácora. Tú solo abres la página para ver qué hicieron, o usas el laboratorio para probar tus propias estrategias.
 
 > Es un simulador educativo. No mueve dinero real ni es recomendación de inversión.
 
