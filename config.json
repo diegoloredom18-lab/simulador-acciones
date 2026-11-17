@@ -1,5 +1,5 @@
 {
-  "capitalInicial": 100000,
+  "capitalInicial": 10000,
   "benchmark": "SPY",
   "watchlist": ["SPY", "AAPL", "MSFT", "NVDA", "AMZN", "GOOGL", "META", "TSLA", "JPM", "KO", "XOM", "WMT"],
   "aniosHistoria": 2,

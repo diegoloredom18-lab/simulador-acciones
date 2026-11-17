@@ -71,7 +71,7 @@ function pintarMuro() {
 
   const invertido = ult.valor - portafolio.efectivo;
   const kpis = [
-    ['RENDIMIENTO', pct(eco.rendimiento), clase(eco.rendimiento), `Capital inicial ${dinero(portafolio.capitalInicial)}`],
+    ['RENDIMIENTO', pct(eco.rendimiento), clase(eco.rendimiento), `Capital inicial ${dinero(portafolio.capitalInicial)} MXN`],
     ['VS MERCADO', pct(eco.rendimiento - eco.rendimientoBenchmark), clase(eco.rendimiento - eco.rendimientoBenchmark), `SPY: ${pct(eco.rendimientoBenchmark)}`],
     ['SHARPE', eco.sharpe.toFixed(2), eco.sharpe >= 1 ? 'sube' : '', 'Rendimiento por unidad de riesgo'],
     ['CAÍDA MÁXIMA', pct(-eco.maxDrawdown), 'baja', 'Peor tramo desde un pico'],
