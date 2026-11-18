@@ -5,21 +5,11 @@
    "Valor del portafolio: $9,835 (-0.3% hoy).",
    "Desde el 2026-05-28: -1.7% vs -2.4% del SPY. Le vamos ganando al mercado.",
    "Vigía: 8 de 12 activos en tendencia alcista. Mejor puntaje: WMT (74).",
-   "Bastión: 12 activos aprobados. Caída actual del portafolio: 2.7%.",
+   "Bastión: 12 activos aprobados. Caída actual del portafolio: 3.0%.",
    "Oráculo: Señal de compra en AAPL, TSLA, JPM, KO, XOM, WMT.",
-   "Martillo: 1 órdenes ejecutadas (1 compras, 0 ventas)."
+   "Martillo: Sin cambios: el portafolio ya está en su objetivo."
   ],
-  "ordenes": [
-   {
-    "fecha": "2026-11-17",
-    "ticker": "JPM",
-    "lado": "COMPRA",
-    "acciones": 4.9613,
-    "precio": 330.12,
-    "monto": 1639.48,
-    "motivo": "Entrada/aumento por señal"
-   }
-  ]
+  "ordenes": []
  },
  {
   "fecha": "2026-11-16",
