@@ -1,5 +1,28 @@
 [
  {
+  "fecha": "2026-11-18",
+  "lineas": [
+   "Valor del portafolio: $9,737 (-1.0% hoy).",
+   "Desde el 2026-05-28: -2.6% vs -2.7% del SPY. Le vamos ganando al mercado.",
+   "Vigía: 8 de 12 activos en tendencia alcista. Mejor puntaje: WMT (75).",
+   "Bastión: 12 activos aprobados. Caída actual del portafolio: 3.0%.",
+   "Oráculo: Señal de compra en AAPL, TSLA, KO, XOM, WMT.",
+   "Martillo: 1 órdenes ejecutadas (0 compras, 1 ventas)."
+  ],
+  "ordenes": [
+   {
+    "fecha": "2026-11-18",
+    "ticker": "JPM",
+    "lado": "VENTA",
+    "acciones": 4.9613,
+    "precio": 323.95,
+    "monto": 1605.59,
+    "ganancia": -30.65,
+    "motivo": "Salida por señal/riesgo"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-17",
   "lineas": [
    "Valor del portafolio: $9,835 (-0.3% hoy).",
@@ -1719,18 +1742,6 @@
    "Desde el 2026-05-28: -4.0% vs +1.8% del SPY. El mercado nos va ganando.",
    "Vigía: 7 de 12 activos en tendencia alcista. Mejor puntaje: JPM (69).",
    "Bastión: 12 activos aprobados. Caída actual del portafolio: 3.3%.",
-   "Oráculo: Señal de compra en AAPL, NVDA, JPM, KO, XOM.",
-   "Martillo: Sin cambios: el portafolio ya está en su objetivo."
-  ],
-  "ordenes": []
- },
- {
-  "fecha": "2026-08-25",
-  "lineas": [
-   "Valor del portafolio: $9,653 (-0.2% hoy).",
-   "Desde el 2026-05-28: -3.5% vs +1.8% del SPY. El mercado nos va ganando.",
-   "Vigía: 8 de 12 activos en tendencia alcista. Mejor puntaje: KO (73).",
-   "Bastión: 12 activos aprobados. Caída actual del portafolio: 3.1%.",
    "Oráculo: Señal de compra en AAPL, NVDA, JPM, KO, XOM.",
    "Martillo: Sin cambios: el portafolio ya está en su objetivo."
   ],
