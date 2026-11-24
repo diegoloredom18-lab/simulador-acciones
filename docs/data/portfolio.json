@@ -1,7 +1,7 @@
 {
  "capitalInicial": 10000,
  "inicio": "2026-05-28",
- "efectivo": 3993.9485161092507,
+ "efectivo": 3857.4587610758085,
  "posiciones": {
   "XOM": {
    "acciones": 9.569993451273765,
@@ -15,9 +15,9 @@
    "acciones": 12.469293370685474,
    "costoPromedio": 122.08764427070516
   },
-  "KO": {
-   "acciones": 16.709220794815938,
-   "costoPromedio": 99.29962499999999
+  "AAPL": {
+   "acciones": 4.966100348052959,
+   "costoPromedio": 349.25453999999996
   }
  },
  "operaciones": [
@@ -2200,6 +2200,25 @@
    "monto": 1701.46,
    "ganancia": 40.91,
    "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-23",
+   "ticker": "KO",
+   "lado": "VENTA",
+   "acciones": 16.7092,
+   "precio": 95.83,
+   "monto": 1599.68,
+   "ganancia": -57.94,
+   "motivo": "Salida por señal/riesgo"
+  },
+  {
+   "fecha": "2026-11-23",
+   "ticker": "AAPL",
+   "lado": "COMPRA",
+   "acciones": 4.9661,
+   "precio": 349.25,
+   "monto": 1736.17,
+   "motivo": "Entrada/aumento por señal"
   }
  ],
  "historial": [
@@ -2822,6 +2841,11 @@
    "fecha": "2026-11-20",
    "valor": 9577.32,
    "benchmark": 9187.71
+  },
+  {
+   "fecha": "2026-11-23",
+   "valor": 9640.37,
+   "benchmark": 9620.32
   }
  ],
  "benchmarkAcciones": 13.319186581292456
