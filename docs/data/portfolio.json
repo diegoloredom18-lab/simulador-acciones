@@ -2846,6 +2846,11 @@
    "fecha": "2026-11-23",
    "valor": 9640.37,
    "benchmark": 9620.32
+  },
+  {
+   "fecha": "2026-11-24",
+   "valor": 9710.04,
+   "benchmark": 9573.56
   }
  ],
  "benchmarkAcciones": 13.319186581292456
