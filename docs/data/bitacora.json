@@ -1,5 +1,28 @@
 [
  {
+  "fecha": "2026-11-25",
+  "lineas": [
+   "Valor del portafolio: $9,698 (-0.1% hoy).",
+   "Desde el 2026-05-28: -3.0% vs -4.5% del SPY. Le vamos ganando al mercado.",
+   "Vigía: 5 de 12 activos en tendencia alcista. Mejor puntaje: WMT (82).",
+   "Bastión: 12 activos aprobados. Caída actual del portafolio: 4.2%.",
+   "Oráculo: Señal de compra en AAPL, TSLA, WMT.",
+   "Martillo: 1 órdenes ejecutadas (0 compras, 1 ventas)."
+  ],
+  "ordenes": [
+   {
+    "fecha": "2026-11-25",
+    "ticker": "XOM",
+    "lado": "VENTA",
+    "acciones": 9.57,
+    "precio": 158,
+    "monto": 1510.56,
+    "ganancia": -49.14,
+    "motivo": "Salida por señal/riesgo"
+   }
+  ]
+ },
+ {
   "fecha": "2026-11-24",
   "lineas": [
    "Valor del portafolio: $9,710 (+0.7% hoy).",
@@ -1714,37 +1737,5 @@
    "Martillo: Sin cambios: el portafolio ya está en su objetivo."
   ],
   "ordenes": []
- },
- {
-  "fecha": "2026-09-01",
-  "lineas": [
-   "Valor del portafolio: $9,707 (+0.5% hoy).",
-   "Desde el 2026-05-28: -2.9% vs +1.2% del SPY. El mercado nos va ganando.",
-   "Vigía: 7 de 12 activos en tendencia alcista. Mejor puntaje: MSFT (74).",
-   "Bastión: 12 activos aprobados. Caída actual del portafolio: 3.2%.",
-   "Oráculo: Señal de compra en AAPL, NVDA, META, JPM, KO, XOM.",
-   "Martillo: 2 órdenes ejecutadas (1 compras, 1 ventas)."
-  ],
-  "ordenes": [
-   {
-    "fecha": "2026-09-01",
-    "ticker": "XOM",
-    "lado": "VENTA",
-    "acciones": 1.291,
-    "precio": 163.44,
-    "monto": 210.79,
-    "ganancia": 11.1,
-    "motivo": "Reducir peso"
-   },
-   {
-    "fecha": "2026-09-01",
-    "ticker": "META",
-    "lado": "COMPRA",
-    "acciones": 1.8494,
-    "precio": 578.37,
-    "monto": 1070.71,
-    "motivo": "Entrada/aumento por señal"
-   }
-  ]
  }
 ]

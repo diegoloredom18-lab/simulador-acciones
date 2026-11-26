@@ -1,12 +1,8 @@
 {
  "capitalInicial": 10000,
  "inicio": "2026-05-28",
- "efectivo": 3857.4587610758085,
+ "efectivo": 5368.014845418282,
  "posiciones": {
-  "XOM": {
-   "acciones": 9.569993451273765,
-   "costoPromedio": 163.13614758589307
-  },
   "TSLA": {
    "acciones": 2.4180032419378015,
    "costoPromedio": 372.9009106467591
@@ -2219,6 +2215,16 @@
    "precio": 349.25,
    "monto": 1736.17,
    "motivo": "Entrada/aumento por señal"
+  },
+  {
+   "fecha": "2026-11-25",
+   "ticker": "XOM",
+   "lado": "VENTA",
+   "acciones": 9.57,
+   "precio": 158,
+   "monto": 1510.56,
+   "ganancia": -49.14,
+   "motivo": "Salida por señal/riesgo"
   }
  ],
  "historial": [
@@ -2851,6 +2857,11 @@
    "fecha": "2026-11-24",
    "valor": 9710.04,
    "benchmark": 9573.56
+  },
+  {
+   "fecha": "2026-11-25",
+   "valor": 9698.24,
+   "benchmark": 9545.86
   }
  ],
  "benchmarkAcciones": 13.319186581292456
