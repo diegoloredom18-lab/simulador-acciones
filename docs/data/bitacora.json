@@ -5,22 +5,11 @@
    "Valor del portafolio: $9,698 (-0.1% hoy).",
    "Desde el 2026-05-28: -3.0% vs -4.5% del SPY. Le vamos ganando al mercado.",
    "Vigía: 5 de 12 activos en tendencia alcista. Mejor puntaje: WMT (82).",
-   "Bastión: 12 activos aprobados. Caída actual del portafolio: 4.2%.",
+   "Bastión: 12 activos aprobados. Caída actual del portafolio: 4.3%.",
    "Oráculo: Señal de compra en AAPL, TSLA, WMT.",
-   "Martillo: 1 órdenes ejecutadas (0 compras, 1 ventas)."
+   "Martillo: Sin cambios: el portafolio ya está en su objetivo."
   ],
-  "ordenes": [
-   {
-    "fecha": "2026-11-25",
-    "ticker": "XOM",
-    "lado": "VENTA",
-    "acciones": 9.57,
-    "precio": 158,
-    "monto": 1510.56,
-    "ganancia": -49.14,
-    "motivo": "Salida por señal/riesgo"
-   }
-  ]
+  "ordenes": []
  },
  {
   "fecha": "2026-11-24",
